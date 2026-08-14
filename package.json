@@ -15,8 +15,10 @@
   "type": "commonjs",
   "dependencies": {
     "@capacitor/android": "^8.5.0",
+    "@capacitor/camera": "^8.2.2",
     "@capacitor/cli": "^8.5.0",
-    "@capacitor/core": "^8.5.0"
+    "@capacitor/core": "^8.5.0",
+    "@capacitor/geolocation": "^8.2.2"
   },
   "devDependencies": {
     "typescript": "^7.0.2"
