@@ -99,7 +99,7 @@ class StudentController extends Controller
 
         $request->validate([
             'type' => ['required', 'in:izin,sakit'],
-            'reason' => ['required', 'string', 'max:500'],
+            'reason' => ['nullable', 'string', 'max:500'],
             'photo' => ['nullable', 'file', 'image', 'max:2048'],
         ]);
 

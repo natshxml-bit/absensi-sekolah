@@ -265,7 +265,8 @@
       try {
         var res;
         if (status === 'izin' || status === 'sakit') {
-          res = await API.studentIzin({ type: status, reason: reason.value.trim() });
+          var fd = new FormData(); fd.append('type', status); fd.append('reason', reason.value.trim());
+          res = await API.studentIzin(fd);
         } else {
           var body = { date: (function(){ var n=new Date(); return n.getFullYear()+'-'+String(n.getMonth()+1).padStart(2,'0')+'-'+String(n.getDate()).padStart(2,'0'); })(), status: status, reason: reason.value.trim() };
           if (gpsLat !== null) body.latitude = gpsLat;
