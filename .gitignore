@@ -1,0 +1,10 @@
+/vendor
+/node_modules
+/.env
+/.env.backup
+/database/database.sqlite
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+*.md
+*.log
