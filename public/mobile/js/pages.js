@@ -434,8 +434,9 @@
         ]);
         row.append(cb, UI.avatar(r.student?.name || r.user?.name || r.user_name || '?'), detail, UI.statusPill(r.status));
         if (r.photo_url) {
-          var photoLink = UI.el('a', { href: r.photo_url, target: '_blank', text: '📷 Foto', style: 'font-size:11px;color:var(--primary);margin-left:8px;text-decoration:none' });
-          detail.appendChild(photoLink);
+          var photoImg = UI.el('img', { src: r.photo_url, style: 'width:40px;height:40px;border-radius:6px;object-fit:cover;margin-left:8px;cursor:pointer;border:1px solid var(--border)' });
+          photoImg.onclick = function (e) { e.stopPropagation(); window.open(r.photo_url, '_blank'); };
+          detail.appendChild(photoImg);
         }
         list.appendChild(row);
       });
