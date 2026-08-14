@@ -235,16 +235,16 @@
       if ((status === 'izin' || status === 'sakit') && !reason.value.trim()) { msg.textContent = 'Isi alasan'; msg.classList.add('show'); return; }
       btnKirim.disabled = true; btnKirim.textContent = 'Mengirim…'; msg.classList.remove('show');
       try {
-        var body = { date: (function(){ var n=new Date(); return n.getFullYear()+'-'+String(n.getMonth()+1).padStart(2,'0')+'-'+String(n.getDate()).padStart(2,'0'); })(), status: status, reason: reason.value.trim() };
-        if (gpsLat !== null) body.latitude = gpsLat;
-        if (gpsLng !== null) body.longitude = gpsLng;
-        var photoSent = false;
-        if (file) {
-          var fd = new FormData(); Object.keys(body).forEach(function (k) { fd.append(k, body[k]); }); fd.append('photo', file);
-          var res = await API.studentAbsenSubmit(fd); photoSent = true;
+        var res;
+        if (status === 'izin' || status === 'sakit') {
+          res = await API.studentIzin({ type: status, reason: reason.value.trim() });
         } else {
-          var fd2 = new FormData(); Object.keys(body).forEach(function (k) { fd2.append(k, body[k]); });
-          var res = await API.studentAbsenSubmit(fd2);
+          var body = { date: (function(){ var n=new Date(); return n.getFullYear()+'-'+String(n.getMonth()+1).padStart(2,'0')+'-'+String(n.getDate()).padStart(2,'0'); })(), status: status, reason: reason.value.trim() };
+          if (gpsLat !== null) body.latitude = gpsLat;
+          if (gpsLng !== null) body.longitude = gpsLng;
+          var fd = new FormData(); Object.keys(body).forEach(function (k) { fd.append(k, body[k]); });
+          if (file) fd.append('photo', file);
+          res = await API.studentAbsenSubmit(fd);
         }
         if (res.status === 422) { var d = await res.json(); msg.textContent = d.message || 'Validasi gagal'; msg.classList.add('show'); btnKirim.disabled = false; btnKirim.innerHTML = UI.icon('check', 16) + ' Kirim'; return; }
         if (!res.ok) { var d = await res.json().catch(function () { return {}; }); msg.textContent = d.message || 'Gagal'; msg.classList.add('show'); btnKirim.disabled = false; btnKirim.innerHTML = UI.icon('check', 16) + ' Kirim'; return; }
