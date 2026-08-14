@@ -89,6 +89,39 @@ class StudentController extends Controller
         return response()->json($history);
     }
 
+    public function requestIzin(Request $request)
+    {
+        $student = $request->user()->student;
+
+        if ($student === null) {
+            return response()->json(['message' => 'Data siswa tidak ditemukan.'], 404);
+        }
+
+        $request->validate([
+            'type' => ['required', 'in:izin,sakit'],
+            'reason' => ['required', 'string', 'max:500'],
+        ]);
+
+        $today = now()->toDateString();
+
+        if ($student->attendance()->where('date', $today)->exists()) {
+            return response()->json(['message' => 'Anda sudah memiliki catatan absensi hari ini.'], 422);
+        }
+
+        $attendance = $this->attendanceService->recordManual(
+            $student,
+            $today,
+            $request->type,
+            null,
+            $request->reason,
+        );
+
+        return response()->json([
+            'message' => ucfirst($request->type) . ' berhasil dicatat.',
+            'data' => $this->service->present($attendance),
+        ], 201);
+    }
+
     public function schedules(Request $request)
     {
         $student = $request->user()->student;

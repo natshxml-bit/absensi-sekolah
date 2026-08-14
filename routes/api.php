@@ -39,6 +39,7 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::get('/profile', [StudentController::class, 'profile']);
         Route::get('/today', [StudentController::class, 'today']);
         Route::post('/attendance', [StudentController::class, 'checkIn']);
+        Route::post('/attendance/izin', [StudentController::class, 'requestIzin']);
         Route::get('/attendance', [StudentController::class, 'history']);
         Route::get('/schedules', [StudentController::class, 'schedules']);
     });
