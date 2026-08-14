@@ -100,6 +100,7 @@ class StudentController extends Controller
         $request->validate([
             'type' => ['required', 'in:izin,sakit'],
             'reason' => ['required', 'string', 'max:500'],
+            'photo' => ['nullable', 'file', 'image', 'max:2048'],
         ]);
 
         $today = now()->toDateString();
@@ -108,11 +109,13 @@ class StudentController extends Controller
             return response()->json(['message' => 'Anda sudah memiliki catatan absensi hari ini.'], 422);
         }
 
+        $photoFile = $request->hasFile('photo') ? $request->file('photo') : null;
+
         $attendance = $this->attendanceService->recordManual(
             $student,
             $today,
             $request->type,
-            null,
+            $photoFile,
             $request->reason,
         );
 

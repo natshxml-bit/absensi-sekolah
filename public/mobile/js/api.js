@@ -81,7 +81,7 @@
   async function studentDashboard() { return get('/student/today'); }
   async function studentAbsenSubmit(body) { return postForm('/student/attendance', body); }
   async function studentHistory() { return get('/student/attendance'); }
-  async function studentIzin(body) { return post('/student/attendance/izin', body); }
+  async function studentIzin(body) { return postForm('/student/attendance/izin', body); }
   async function studentSchedules() { return get('/student/schedules'); }
 
   async function adminDashboard() { return get('/admin/overview'); }

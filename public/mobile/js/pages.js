@@ -147,12 +147,40 @@
       { value: 'sakit', label: 'Sakit' },
     ]);
     var reason = UI.el('textarea', { rows: '3', placeholder: 'Alasan…' });
-    c.append(err, UI.field('Tipe', tA), UI.field('Alasan', reason));
+
+    var photoWrap = UI.el('div', { style: 'text-align:center' });
+    var photoIn = UI.el('input', { type: 'file', accept: 'image/*', capture: 'environment', style: 'display:none' });
+    var photoBtn = UI.el('button', { class: 'btn sm ghost-2', html: UI.icon('camera', 14) + ' Lampirkan Foto (opsional)', style: 'margin-top:4px' });
+    var photoPreview = UI.el('div', { style: 'margin-top:8px;display:none;text-align:center' });
+    var izinPhoto = null;
+
+    photoBtn.onclick = function () { photoIn.click(); };
+    photoIn.onchange = function () {
+      var f = photoIn.files && photoIn.files[0];
+      if (!f) return;
+      izinPhoto = f;
+      var reader = new FileReader();
+      reader.onload = function (ev) {
+        photoPreview.innerHTML = '';
+        photoPreview.style.display = 'block';
+        var img = UI.el('img', { src: ev.target.result, style: 'max-width:100%;max-height:160px;border-radius:8px;border:1px solid var(--border)' });
+        photoPreview.appendChild(img);
+      };
+      reader.readAsDataURL(f);
+    };
+
+    photoWrap.append(photoIn, photoBtn, photoPreview);
+
+    c.append(err, UI.field('Tipe', tA), UI.field('Alasan', reason), photoWrap);
     var btn = UI.el('button', { class: 'btn mt', text: 'Kirim' });
     btn.onclick = async function () {
       btn.disabled = true; btn.textContent = 'Mengirim…'; err.classList.remove('show');
       try {
-        var res = await API.studentIzin({ type: tA.value, reason: reason.value.trim() });
+        var fd = new FormData();
+        fd.append('type', tA.value);
+        fd.append('reason', reason.value.trim());
+        if (izinPhoto) fd.append('photo', izinPhoto);
+        var res = await API.studentIzin(fd);
         var d = await res.json();
         if (!res.ok) { err.textContent = d.message || 'Gagal'; err.classList.add('show'); btn.disabled = false; btn.textContent = 'Kirim'; return; }
         UI.toast('Terkirim', 'ok'); UI.closeModal(h);
