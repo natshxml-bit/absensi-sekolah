@@ -427,11 +427,16 @@
         var row = UI.el('div', { class: 'list-item', style: 'cursor:pointer' });
         var cb = UI.el('input', { type: 'checkbox' }); cb.checked = !!sel[id];
         cb.onchange = function () { if (cb.checked) sel[id] = true; else delete sel[id]; updSelBar(); };
-        row.onclick = function (e) { if (e.target.tagName === 'INPUT') return; cb.checked = !cb.checked; cb.onchange(); };
-        row.append(cb, UI.avatar(r.student?.name || r.user?.name || r.user_name || '?'), UI.el('div', { class: 'grow' }, [
+        row.onclick = function (e) { if (e.target.tagName === 'INPUT' || e.target.tagName === 'IMG') return; cb.checked = !cb.checked; cb.onchange(); };
+        var detail = UI.el('div', { class: 'grow' }, [
           UI.el('div', { class: 'name', text: r.student?.name || r.user?.name || r.user_name || '-' }),
-          UI.el('div', { class: 'sub', text: r.check_in_time || r.time || r.jam || '-' }),
-        ]), UI.statusPill(r.status));
+          UI.el('div', { class: 'sub', text: (r.check_in_time || r.time || r.jam || '-') + (r.notes ? ' · ' + r.notes : '') }),
+        ]);
+        row.append(cb, UI.avatar(r.student?.name || r.user?.name || r.user_name || '?'), detail, UI.statusPill(r.status));
+        if (r.photo_url) {
+          var photoLink = UI.el('a', { href: r.photo_url, target: '_blank', text: '📷 Foto', style: 'font-size:11px;color:var(--primary);margin-left:8px;text-decoration:none' });
+          detail.appendChild(photoLink);
+        }
         list.appendChild(row);
       });
     }
