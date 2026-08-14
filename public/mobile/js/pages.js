@@ -189,7 +189,30 @@
 
     var fileWrap = UI.el('div');
     var fileIn = UI.el('input', { type: 'file', accept: 'image/*', capture: 'environment', style: 'display:none' });
-    var fileBtn = UI.el('button', { class: 'btn ghost-2', html: UI.icon('camera', 16) + ' Ambil Foto', onclick: function () { fileIn.click(); } });
+    var isNative = !!(window.Capacitor && window.Capacitor.isNativePlatform);
+    var fileBtn = UI.el('button', { class: 'btn ghost-2', html: UI.icon('camera', 16) + ' Ambil Foto', onclick: async function () {
+      if (isNative && window.Capacitor.Plugins && window.Capacitor.Plugins.Camera) {
+        try {
+          var photo = await window.Capacitor.Plugins.Camera.getPhoto({
+            quality: 80,
+            allowEditing: false,
+            resultType: 'dataUrl',
+            source: 'CAMERA',
+            width: 800,
+            height: 800
+          });
+          var byteStr = atob(photo.dataUrl.split(',')[1]);
+          var ab = new ArrayBuffer(byteStr.length);
+          var ia = new Uint8Array(ab);
+          for (var i = 0; i < byteStr.length; i++) ia[i] = byteStr.charCodeAt(i);
+          file = new Blob([ab], { type: 'image/jpeg' });
+          preview.src = photo.dataUrl;
+          preview.style.display = 'block';
+        } catch (e) { console.log('Camera cancelled', e); }
+      } else {
+        fileIn.click();
+      }
+    } });
     preview = UI.el('img', { class: 'photo-preview', style: 'display:none' });
     fileIn.onchange = function () {
       if (!fileIn.files || !fileIn.files[0]) return;

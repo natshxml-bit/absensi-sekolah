@@ -3,10 +3,7 @@
   "appName": "Absensi Sekolah",
   "webDir": "public/mobile",
   "server": {
-    "androidScheme": "https",
-    "url": "https://absensi-web-production-6b32.up.railway.app/mobile/",
-    "cleartext": false,
-    "allowNavigation": ["*"]
+    "androidScheme": "https"
   },
   "plugins": {
     "SplashScreen": {
