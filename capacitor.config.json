@@ -1,0 +1,22 @@
+{
+  "appId": "com.absensi.sekolah",
+  "appName": "Absensi Sekolah",
+  "webDir": "public/mobile",
+  "server": {
+    "androidScheme": "https",
+    "url": "https://absensi-web-production-6b32.up.railway.app",
+    "cleartext": false,
+    "allowNavigation": ["*"]
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": true,
+      "launchShowDuration": 1500,
+      "backgroundColor": "#1B4965",
+      "showSpinner": false
+    }
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}

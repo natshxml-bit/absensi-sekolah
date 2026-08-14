@@ -8,3 +8,7 @@
 /storage/framework/sessions/*
 *.md
 *.log
+/android/.gradle
+/android/app/build
+/android/build
+/android/capacitor-android/build
