@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#1B4965">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Absensi">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="manifest" href="/mobile/manifest.json">
+<link rel="icon" href="/mobile/icons/icon-192.png">
+<link rel="apple-touch-icon" href="/mobile/icons/apple-touch-icon.png">
+<title>Absensi Sekolah</title>
+<link rel="stylesheet" href="/mobile/css/app.css">
+</head>
+<body>
+<div id="app" class="app"></div>
+<script>
+  window.addEventListener('error', function (ev) {
+    var box = document.getElementById('errbox');
+    if (!box) {
+      box = document.createElement('div');
+      box.id = 'errbox';
+      box.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:9999;background:#7f1d1d;color:#fff;font:12px/1.5 monospace;padding:12px;white-space:pre-wrap;word-break:break-all';
+      document.body.appendChild(box);
+    }
+    box.textContent += 'ERROR: ' + (ev.message || ev.error) + '\n' + (ev.filename || '') + ':' + (ev.lineno || '') + '\n';
+  });
+  window.addEventListener('unhandledrejection', function (ev) {
+    var box = document.getElementById('errbox');
+    if (!box) {
+      box = document.createElement('div');
+      box.id = 'errbox';
+      box.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:9999;background:#7f1d1d;color:#fff;font:12px/1.5 monospace;padding:12px;white-space:pre-wrap;word-break:break-all';
+      document.body.appendChild(box);
+    }
+    box.textContent += 'REJECTED: ' + (ev.reason && (ev.reason.message || ev.reason)) + '\n';
+  });
+</script>
+<script>
+  window.APP = {
+    apiBase: (function () {
+      var stored = null;
+      try { stored = localStorage.getItem('api_base'); } catch (e) {}
+      return stored || '';
+    })()
+  };
+</script>
+<script src="/mobile/js/api.js"></script>
+<script src="/mobile/js/ui.js"></script>
+<script src="/mobile/js/pages.js"></script>
+<script src="/mobile/js/app.js"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('/mobile/sw.js').catch(function () {});
+    });
+  }
+</script>
+</body>
+</html>
