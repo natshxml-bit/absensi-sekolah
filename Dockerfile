@@ -15,7 +15,6 @@ COPY composer.json composer.lock ./
 RUN composer install --no-dev --optimize-autoloader --no-interaction --ignore-platform-reqs --no-scripts
 COPY . .
 RUN php artisan package:discover --ansi \
-    && php artisan route:cache \
     && php artisan view:cache
 
 EXPOSE 80
