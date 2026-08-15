@@ -15,10 +15,9 @@ class GoogleDriveStorage implements PhotoStorage
     public function __construct()
     {
         $this->client = new Client();
-        $this->client->setAuthConfig(json_decode(
-            config('services.google_drive.service_account_json'),
-            true
-        ));
+        $this->client->setClientId(config('services.google_drive.client_id', ''));
+        $this->client->setClientSecret(config('services.google_drive.client_secret', ''));
+        $this->client->refreshToken(config('services.google_drive.refresh_token', ''));
         $this->client->addScope(Drive::DRIVE_FILE);
         $this->folderId = config('services.google_drive.folder_id', '');
     }
