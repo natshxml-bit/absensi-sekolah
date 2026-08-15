@@ -3,11 +3,12 @@ nixPkgs = ["php83", "composer"]
 
 [phases.install]
 cmds = [
-  "composer install --no-dev --optimize-autoloader --no-interaction --ignore-platform-reqs"
+  "composer install --no-dev --optimize-autoloader --no-interaction --ignore-platform-reqs --no-scripts"
 ]
 
 [phases.build]
 cmds = [
+  "php artisan package:discover --ansi",
   "php artisan config:cache",
   "php artisan route:cache",
   "php artisan view:cache"
