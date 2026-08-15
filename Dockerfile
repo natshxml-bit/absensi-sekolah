@@ -20,4 +20,4 @@ RUN php artisan package:discover --ansi \
     && php artisan view:cache
 
 EXPOSE 80
-CMD ["sh", "-c", "php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=${PORT:-80} 2>&1"]
+CMD ["sh", "-c", "php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=${PORT:-80}"]
