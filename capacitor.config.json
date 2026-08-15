@@ -1,0 +1,13 @@
+{
+  "appId": "com.absensi.sekolah",
+  "appName": "Absensi Sekolah",
+  "webDir": "public/mobile",
+  "plugins": {
+    "Camera": {
+      "androidPermissions": ["CAMERA"]
+    },
+    "Geolocation": {
+      "androidPermissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+    }
+  }
+}
