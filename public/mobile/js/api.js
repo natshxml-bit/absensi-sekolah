@@ -18,7 +18,7 @@
   }
   function setAuth(token, user) { setToken(token); setUser(user); }
 
-  var RAILWAY_URL = 'https://absensi-web-production-6b32.up.railway.app';
+  var RAILWAY_URL = 'https://absensi-app.up.railway.app';
   var isNative = !!(window.Capacitor && window.Capacitor.isNativePlatform);
   var BASE = isNative ? RAILWAY_URL + '/api' : '/api';
 
