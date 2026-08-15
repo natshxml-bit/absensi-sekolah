@@ -1,0 +1,1962 @@
+[
+  {
+    "name": "AISYAH QUEEN",
+    "gender": "P",
+    "class": "X AKL"
+  },
+  {
+    "name": "ALIYA NUR SIDIK",
+    "gender": "P",
+    "class": "X AKL"
+  },
+  {
+    "name": "ANGGUN AYU SAUZIAH",
+    "gender": "P",
+    "class": "X AKL"
+  },
+  {
+    "name": "APRILIA DWI PUTRI KENCANA",
+    "gender": "P",
+    "class": "X AKL"
+  },
+  {
+    "name": "AQYLA SYAFKHA LAILAKAMIL",
+    "gender": "P",
+    "class": "X AKL"
+  },
+  {
+    "name": "AULIA PUTRI ANNISA",
+    "gender": "P",
+    "class": "X AKL"
+  },
+  {
+    "name": "AZMI TAHTA ERINA RAHMI",
+    "gender": "P",
+    "class": "X AKL"
+  },
+  {
+    "name": "CITRA DWI ARTHA",
+    "gender": "P",
+    "class": "X AKL"
+  },
+  {
+    "name": "DEWI PUTRI CAHYANI",
+    "gender": "P",
+    "class": "X AKL"
+  },
+  {
+    "name": "LISTIANI NURAENI",
+    "gender": "P",
+    "class": "X AKL"
+  },
+  {
+    "name": "MEISA",
+    "gender": "P",
+    "class": "X AKL"
+  },
+  {
+    "name": "MURAENI",
+    "gender": "P",
+    "class": "X AKL"
+  },
+  {
+    "name": "NADHIFA PUTRI SALSABILA",
+    "gender": "P",
+    "class": "X AKL"
+  },
+  {
+    "name": "NURZAHRA FADILLAH",
+    "gender": "P",
+    "class": "X AKL"
+  },
+  {
+    "name": "ROFI SITI SA'DIAH",
+    "gender": "P",
+    "class": "X AKL"
+  },
+  {
+    "name": "SELVI MUTIARA APRILIA",
+    "gender": "P",
+    "class": "X AKL"
+  },
+  {
+    "name": "SILFIA RAHAYU",
+    "gender": "P",
+    "class": "X AKL"
+  },
+  {
+    "name": "VICKY ANDIANSYAH",
+    "gender": "L",
+    "class": "X AKL"
+  },
+  {
+    "name": "VINA FEBRIANI",
+    "gender": "P",
+    "class": "X AKL"
+  },
+  {
+    "name": "WIWIN WINARTI",
+    "gender": "P",
+    "class": "X AKL"
+  },
+  {
+    "name": "Laki - Laki",
+    "gender": "=COUNTIF(C18:C37,\"L\")",
+    "class": "X AKL"
+  },
+  {
+    "name": "Perempuan",
+    "gender": "20.0",
+    "class": "X AKL"
+  },
+  {
+    "name": "Total",
+    "gender": "21.0",
+    "class": "X AKL"
+  },
+  {
+    "name": "ADDLIYA LUTHFI ALAZHHAR",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "ADILLA JAVA RADITYA DAHISY",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "ADMIRAL BILLAH SAMURAI",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "ARYA SODIKIN FEBRIANSYAH",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "DANIEL AKBAR SAPUTRA",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "FAHAS ARIF ALFARISI LUBIS",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "IQBAL DWI SEPTIAN",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "KAMAL PERMANA SIDIQ",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "MARVEL PUTRA PRATAMA",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "MOCH KHAERUL AZAM",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "MOCH RASYID SYABANA",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "MUHAMAD IQBAL NABHAN",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "MUHAMAD RIDWAN RIZUQI",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "MUHAMMAD ILHAM KHOERUL FALAH",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "RIFAT MUHAMAD ZIKRI",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "RIVAL HERDIANSYAH",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "RUDI RAMDANI",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "SANDI MAULANA",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "SOFIAN MAULANA",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "WILDAN PEBRIANSYAH",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "ZENAL PADILAH",
+    "gender": "L",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "Laki - Laki",
+    "gender": "=COUNTIF(C18:C38,\"L\")",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "Perempuan",
+    "gender": "",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "Total",
+    "gender": "21.0",
+    "class": "X TKJ PUTRA"
+  },
+  {
+    "name": "ALIVHA SABILA",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "ALLIYA MAYSARA RAMADINA",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "ARESYA NURSYIFA",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "ARIFAH NURUL HIDAYAH",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "AYUS AISYAH SABRINA",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "DILA NUR FADILAH",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "DWI SYILVA C.A",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "HELMA RAHMAWATI",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "HUSNA SABILA",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "MUTIARA KHOIRUNNISA",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "NADHIRA AL NAZWA",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "NOVA FITRIANI PUTRI",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "NOVI MELATI PUTRI",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "NURIANI",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "RAYNA SAFA NUR ALIKA",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "REINA SAFAIRA",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "REVALINA AULIA PUTRI",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "REY SYAFITRI LESTARI",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "RISMA ASMARANI",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "RISMA REGINA PUTRI",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "SELLYANI PUTRI",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "SIFA NUROHMAH",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "SOFI NURHIKMAH",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "TASYA MARCELA",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "VINA WULANDARI",
+    "gender": "P",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "Laki - Laki",
+    "gender": "=COUNTIF(C18:C35,\"L\")",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "Perempuan",
+    "gender": "=COUNTIF(C18:C42,\"P\")",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "Total",
+    "gender": "25.0",
+    "class": "X TKJ PUTRI"
+  },
+  {
+    "name": "ADAM MUHAMAD SALIM",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "AGUNG SOBANA",
+    "gender": "",
+    "class": "X TSM"
+  },
+  {
+    "name": "AJI ABDUL ROOZAK",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "AKBAR EKA SEPTIAN",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "DANIA SITI FAUZIAH",
+    "gender": "P",
+    "class": "X TSM"
+  },
+  {
+    "name": "DELVIN PRATAMA Y",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "DIKA MUHAMAD PUTRA",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "EKA AHMAD FALIH FAYYAD",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "FAUZAN ALFARIZI",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "FIKRI ALHAFSI",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "FIKRI RAHAYU",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "GILANG FATHAN MUBAROK",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "HAIKAL M RAMDAN",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "HAPID LUKMANUL HAKIM",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "HILMAN MAULANA",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "MUHAMAD BARIK",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "MUHAMAD RIFKY",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "MUHAMMAD NIZAM",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "NAZRIL RAMDHANI",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "PARHAN NOPAL",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "RADIT SAPUTRA",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "RAFFA MUHAMMAD ISHAK",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "REHAN",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "RESKI SUCHOU SURYADI",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "RIDWAN MAULANA",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "RIZKI AJI",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "SAEPULOH",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "YAKA PERMANA",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "ZAKI",
+    "gender": "L",
+    "class": "X TSM"
+  },
+  {
+    "name": "Laki - Laki",
+    "gender": "28.0",
+    "class": "X TSM"
+  },
+  {
+    "name": "Perempuan",
+    "gender": "=COUNTIF(C18:C46,\"P\")",
+    "class": "X TSM"
+  },
+  {
+    "name": "Total",
+    "gender": "29.0",
+    "class": "X TSM"
+  },
+  {
+    "name": "ALFITRI SAFIKA",
+    "gender": "P",
+    "class": "XI AK"
+  },
+  {
+    "name": "ALIFFA PEBRIAN",
+    "gender": "P",
+    "class": "XI AK"
+  },
+  {
+    "name": "ANGGA PUTRA NURALIF",
+    "gender": "P",
+    "class": "XI AK"
+  },
+  {
+    "name": "ANISA AIRA RAHMASARI",
+    "gender": "L",
+    "class": "XI AK"
+  },
+  {
+    "name": "ANNISA FIRDA SEPTIANI",
+    "gender": "P",
+    "class": "XI AK"
+  },
+  {
+    "name": "ATMA YUDA NAGARA",
+    "gender": "P",
+    "class": "XI AK"
+  },
+  {
+    "name": "AIRA NUR HUSNA",
+    "gender": "L",
+    "class": "XI AK"
+  },
+  {
+    "name": "AYRA NURI SOBIRIN",
+    "gender": "P",
+    "class": "XI AK"
+  },
+  {
+    "name": "DESI CAHYANI",
+    "gender": "P",
+    "class": "XI AK"
+  },
+  {
+    "name": "DESYA KARISA PUTRI",
+    "gender": "P",
+    "class": "XI AK"
+  },
+  {
+    "name": "KISTI NUR AISYAH",
+    "gender": "P",
+    "class": "XI AK"
+  },
+  {
+    "name": "MEDINA JEMIMA AIRANDA",
+    "gender": "P",
+    "class": "XI AK"
+  },
+  {
+    "name": "MIRA HARTIWI",
+    "gender": "P",
+    "class": "XI AK"
+  },
+  {
+    "name": "MUHAMAD RAMDAN",
+    "gender": "L",
+    "class": "XI AK"
+  },
+  {
+    "name": "MURNI SUCI PRATIWI",
+    "gender": "P",
+    "class": "XI AK"
+  },
+  {
+    "name": "NESYA AULIA",
+    "gender": "P",
+    "class": "XI AK"
+  },
+  {
+    "name": "NURUL REGINA",
+    "gender": "P",
+    "class": "XI AK"
+  },
+  {
+    "name": "PUTRI ROHMADONA",
+    "gender": "p",
+    "class": "XI AK"
+  },
+  {
+    "name": "RINA ROSMAYANTI",
+    "gender": "P",
+    "class": "XI AK"
+  },
+  {
+    "name": "RINDY AULIA SHAFANA",
+    "gender": "P",
+    "class": "XI AK"
+  },
+  {
+    "name": "RISKI MUHAMAD PAURIZAL",
+    "gender": "L",
+    "class": "XI AK"
+  },
+  {
+    "name": "ROSSA DZIRA MAULUD SUGIARTO",
+    "gender": "P",
+    "class": "XI AK"
+  },
+  {
+    "name": "SALFA NABILA",
+    "gender": "P",
+    "class": "XI AK"
+  },
+  {
+    "name": "SELSA REGINA PUTRI",
+    "gender": "P",
+    "class": "XI AK"
+  },
+  {
+    "name": "SYIFA NURAINI RULLIAH",
+    "gender": "P",
+    "class": "XI AK"
+  },
+  {
+    "name": "Laki - Laki",
+    "gender": "=COUNTIF(C18:C38,\"L\")",
+    "class": "XI AK"
+  },
+  {
+    "name": "Perempuan",
+    "gender": "21.0",
+    "class": "XI AK"
+  },
+  {
+    "name": "Total",
+    "gender": "25.0",
+    "class": "XI AK"
+  },
+  {
+    "name": "Aira Agustina",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Aira Yusita",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Ajeng Nuraeni",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Alia Lestari",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Alyda Puspita Dewi",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Amira Fauziah",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Arrinal Haq",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Dea Dini Aldiani",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Devi Nurwanti",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Devina Azhar",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Devina Lutsifa",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Dina Fitria",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Dinda Ramadaniya",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Fania Mulyawati",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Faroh Rahadatul Hayah",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Hilma Rismayanti",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Kania Rapika",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Keyra Isnaini Diligenia",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Lifina Aprillia Al - Khalify",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Mia Siti Aminah",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Nazwa Aisyah",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Risa Maulani Azahra",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Riska Anisa",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Sadila Zahrotussita",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Sita Andita Alwiyah",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Siti Amelia",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Syaira Alya Nuryadi",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Tiara Ramadhani Nuraini",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Tresna Aprilianti",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Wafa Waffiroh",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Widi Putri",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Wigia Putri",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Yuliani",
+    "gender": "P",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Laki-Laki",
+    "gender": "=COUNTIF(C18:C47,\"L\")",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Prempuan",
+    "gender": "33.0",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Total",
+    "gender": "33.0",
+    "class": "XI TKJ PUTRI"
+  },
+  {
+    "name": "Agus Jamaludin",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Aldiansyah",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Andhika Pratama Putra Rahayu",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Benzema Al Jabbar Subarnas",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Dadan Setiawan",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Deden Kurniawan",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Dedi Ihsan Nurdin",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Dendi",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Dimas Sunkar",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Dimaz Haendra",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Farel Satria Mustafa",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Gaza Bari Al Zazira",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Ilyas M Rabbani",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Keyla Malik Ibrahim",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Keysar Hazna Ramadan",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Kurnia Nugraha",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Krisna",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Lutfi Lukmanul Hakim",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Muhamad Ainurrovik",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Muhamad Alfarizi Anugrah",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Muhamad Difa",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Muhamad Ilham",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Muhamad Makmur Sidik",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Muhamad Raiysa Ramdan",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Muhammad Izzatul Islam",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Muhammad Ramdan Arifin",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Muhammad Reza Syahfahlevy",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Nuhadena Arfezio Levran",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Raffa Syarief Romadhona",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Rafi Ahmad Fadilah",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Rian Hariadi",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Rifa Arif Budiman",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Saepul",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Sandi Abdullah",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Sandi Permana",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Sawabikul Himam",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Siroz Moh. Kusniawan",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Surya Ahmad Syaputra",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Tarigan",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Wawan Setiawan",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Yuda Wildansyah",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Zahrahan Ahmad Muttaqin",
+    "gender": "L",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Laki - Laki",
+    "gender": "43.0",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Perempuan",
+    "gender": "=COUNTIF(C17:C52,\"P\")",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Total",
+    "gender": "43.0",
+    "class": "XI TKJ PUTRA"
+  },
+  {
+    "name": "Adit Permana",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Adit Tiapradita",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Agil Permana",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Alfhiana Abdul Fatah",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Alfin Alfa Lubis",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Andika Rizal Supriatna",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Anwar Sanusi",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Bastian Juliansyah",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Cahya Khairuman Azzam",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Chandra Kurnia",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Daffa Albari Ramadhan",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Darmawansyah Zaelani",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Dimas Distira",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Egi",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Fadhil Abdul Maulana Fikri",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Fazar Fazrian",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Fikri Pahminudin",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Fiqri Ihsan Nugraha",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Hamid Muhamad Ragil",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Ilham Nurfadilah",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Indra Rizki Pratama",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Irvan Nur Firmansyah",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Moch Reno",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Mohammad Akbar",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Muhamad Fahri Gunawan",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Muhamad Pikri Alpakih",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Muhamad Ramdani",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Muhamad Rizki Mustopa",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Muhamad Yuda",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Muhammad Hazqil Asshidiq Gufron",
+    "gender": "P",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Nandang Abdul Hakim",
+    "gender": "P",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Nisa Nuradia Ningsih",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Raila Fitri Sofia",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Rais Muhammad Faisal",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Reyhan Saputra Hermawan",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Rijal M Pauji",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Rizki M. Firmansyah",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Rizki M. R",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Rizki Nurdiansyah",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Rustandi",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Sandi Priatna",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Sandi Surya Permana",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Sandy Fathir Fadilah",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Wildan Aldiansyah",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Wisnu Fadil Tifatur S",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Zaki Hermansyah Putra",
+    "gender": "L",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Laki - Laki",
+    "gender": "41.0",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Perempuan",
+    "gender": "2.0",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Total",
+    "gender": "43.0",
+    "class": "XI TSM"
+  },
+  {
+    "name": "Aira Soraya Khairunisa",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Ambar Siti Zainab",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Anisa Junita Sari",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Anissa Rahmawati",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Astri Sucia Lestari",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Desvia Novita",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Dina Adiwinata",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Fitri Indriyani",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Hasna Nurhasanah",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Jihan Jaelani",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Lusi Halisa Fazri",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Moch Fahri",
+    "gender": "L",
+    "class": "XII AK"
+  },
+  {
+    "name": "Nabila Regina Putri",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Nagita Maulani",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Natasya Klara",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Neng Risna Wati",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Resqi Al-Dera",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Shiva Rini",
+    "gender": "L",
+    "class": "XII AK"
+  },
+  {
+    "name": "Shilvi Rina",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Sis Aulia Hasan",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Siti Junintan",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Suci Sutiasih",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Widia Octaviani",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Yulianti Nurjanah",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Yulianti Nurjanah",
+    "gender": "P",
+    "class": "XII AK"
+  },
+  {
+    "name": "Laki - Laki",
+    "gender": "=COUNTIF(C18:C41,\"L\")",
+    "class": "XII AK"
+  },
+  {
+    "name": "Perempuan",
+    "gender": "23.0",
+    "class": "XII AK"
+  },
+  {
+    "name": "Total",
+    "gender": "25.0",
+    "class": "XII AK"
+  },
+  {
+    "name": "Abdul Rozak",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Aditya Marselino Saputra",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Agung Maulana",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Alvian Muhamad Rapi",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Alvin Andrean",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Andhika Moh Rifki",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Angganata",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Anjar Ramdani",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Arya Pratama",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Azkiya Putra",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "D. Ilham. N",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Dapit Putra Duta Permana",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Deri Diantoro",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Fadhil Akbar",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Fahri",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Indah Pertiwi",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Moch. Refal Fadhilah",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Muhamad Dzikri Putra",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Muhamad Ihsan Hoirudin",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Nugi Aditia Pratama",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Pikri Pebriana",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Radhitya Dwi Putra",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Rafi Ahmad Jaelani",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Reva Agung Pribadi",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Ridfal Fadilah",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Ridho Raihan Maulana",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Ridwan",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Syahrul Ahmad Nurahman",
+    "gender": "L",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Laki - Laki",
+    "gender": "=COUNTIF(C18:C41,\"L\")",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Perempuan",
+    "gender": "=COUNTIF(C18:C41,\"P\")",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Total",
+    "gender": "=COUNTA(B18:B41)",
+    "class": "XII TSM"
+  },
+  {
+    "name": "Andini Alfinatun Nissa",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Azizah Hairul Niswah",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Azka Tazkiyah",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Bunga Avrilla Utami",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Desi Aenur Rofiq",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Elis",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Elsa Maharani",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Elsa Oktaviana",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Irma",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Irsa Maulida",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Ita Sintia",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Karisa Rahmania",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Melani Fitria",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Nur Annisa Sania",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Nuraura Putri Aprilia",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Qoulan Shaqilla An Nissa",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Rahmatussaadah",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Raisya Fatwa Fatima",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Ratih Anggun Jauza",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Reli Rapaneli",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Resa Rahmawati",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Riani Oktapia",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Rif'ah Latifah",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Rita Munggah Harani",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Silvana Melani",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Silvia Nopita",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Susan",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Tika Ayuni",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Via Anjani Sudrajat",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Viena Maharani",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Wulan Widianingsih",
+    "gender": "P",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Laki - Laki",
+    "gender": "=COUNTIF(C18:C45,\"L\")",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Perempuan",
+    "gender": "=COUNTIF(C18:C45,\"P\")",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Total",
+    "gender": "=COUNTA(B18:B45)",
+    "class": "XII TKJ PUTRI"
+  },
+  {
+    "name": "Abdurahman Faiz Al Asyari",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Ade Agus Jaelani",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Aris Hadiansyah",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Danar Galang Kusuma",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Dio Rizki",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Dirli Muhammad Fauzi",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Fajar Nursyaban",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Fazar Fadilah",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Indra Mauluddi",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Kiki Ahmad Fauzi",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "M Ridwan",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Moch Aqbil Ghanie",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Mochammad Ridho Man Awijaya",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Muhamad Dirli Cahyana",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Muhamad Gilang Aripin",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Muhamad Revan Ripaldi",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Muhamad Rifky Aulia",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Muhamad Sopian",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Muhamad Taopik Hidayatuloh",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Muhammad Diva Al Amin",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Muhammad Kafi Binuril Hikam",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Opik Nurmuhamad",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Padli Kurnia",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Raffy Adli Firansyah",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Raihan Mubarok",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Redia Herdiansyah Pratama",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Rivan Kurnia Al-Imansyah",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Rizal Maulana",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Rizky Ahmad Maulana",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Rizky Ramdani",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Wisnu Saputra",
+    "gender": "L",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Laki - Laki",
+    "gender": "=COUNTIF(C17:C43,\"L\")",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Perempuan",
+    "gender": "=COUNTIF(C17:C43,\"P\")",
+    "class": "XII TKJ PUTRA"
+  },
+  {
+    "name": "Total",
+    "gender": "=COUNTA(B17:B43)",
+    "class": "XII TKJ PUTRA"
+  }
+]

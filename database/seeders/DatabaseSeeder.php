@@ -13,7 +13,7 @@ class DatabaseSeeder extends Seeder
         User::updateOrCreate(
             ['email' => 'admin@sekolah.sch.id'],
             [
-                'name' => 'Administrator',
+                'name' => 'Admin79',
                 'password' => 'admin123',
                 'role' => User::ROLE_ADMIN,
             ],
