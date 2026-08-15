@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Services\PhotoStorage\PhotoStorage;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -69,7 +70,7 @@ class Attendance extends Model
             return '';
         }
 
-        return \Illuminate\Support\Facades\Storage::disk('public')->url($this->photo);
+        return app(PhotoStorage::class)->url($this->photo);
     }
 
     public static function statusLabel(string $status): string

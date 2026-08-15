@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Services\PhotoStorage\GoogleDriveStorage;
 use App\Services\PhotoStorage\LocalPhotoStorage;
 use App\Services\PhotoStorage\PhotoStorage;
 use Illuminate\Cache\RateLimiting\Limit;
@@ -13,7 +14,13 @@ class AppServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
-        $this->app->singleton(PhotoStorage::class, LocalPhotoStorage::class);
+        $this->app->singleton(PhotoStorage::class, function () {
+            $json = config('services.google_drive.service_account_json', '');
+            if ($json && $json !== '') {
+                return new GoogleDriveStorage();
+            }
+            return new LocalPhotoStorage();
+        });
     }
 
     public function boot(): void

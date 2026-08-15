@@ -176,7 +176,17 @@
     btn.onclick = async function () {
       btn.disabled = true; btn.textContent = 'Mengirim…'; err.classList.remove('show');
       try {
-        var res = await API.studentIzin({ type: tA.value, reason: reason.value.trim() });
+        var payload = { type: tA.value, reason: reason.value.trim() };
+        if (izinPhoto) {
+          var b64 = await new Promise(function (res, rej) {
+            var r = new FileReader();
+            r.onload = function (ev) { res(ev.target.result.split(',')[1]); };
+            r.onerror = rej;
+            r.readAsDataURL(izinPhoto);
+          });
+          payload.photo = b64;
+        }
+        var res = await API.studentIzin(payload);
         var d = await res.json();
         if (!res.ok) { err.textContent = d.message || 'Gagal'; err.classList.add('show'); btn.disabled = false; btn.textContent = 'Kirim'; return; }
         UI.toast('Terkirim', 'ok'); UI.closeModal(h);
@@ -261,7 +271,17 @@
       try {
         var res;
         if (status === 'izin' || status === 'sakit') {
-          res = await API.studentIzin({ type: status, reason: reason.value.trim() });
+          var payload = { type: status, reason: reason.value.trim() };
+          if (file) {
+            var b64 = await new Promise(function (res, rej) {
+              var r = new FileReader();
+              r.onload = function (ev) { res(ev.target.result.split(',')[1]); };
+              r.onerror = rej;
+              r.readAsDataURL(file);
+            });
+            payload.photo = b64;
+          }
+          res = await API.studentIzin(payload);
         } else {
           var body = { date: (function(){ var n=new Date(); return n.getFullYear()+'-'+String(n.getMonth()+1).padStart(2,'0')+'-'+String(n.getDate()).padStart(2,'0'); })(), status: status, reason: reason.value.trim() };
           if (gpsLat !== null) body.latitude = gpsLat;
