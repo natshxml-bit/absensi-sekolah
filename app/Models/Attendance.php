@@ -70,7 +70,7 @@ class Attendance extends Model
             return '';
         }
 
-        return app(PhotoStorage::class)->url($this->photo);
+        return url('/photo/' . $this->photo);
     }
 
     public static function statusLabel(string $status): string
