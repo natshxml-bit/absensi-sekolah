@@ -6,6 +6,7 @@
   "deploy": {
     "startCommand": "php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=$PORT",
     "healthcheckPath": "/",
+    "healthcheckPort": 8080,
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 3
   }

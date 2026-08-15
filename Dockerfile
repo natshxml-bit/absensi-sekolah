@@ -19,5 +19,5 @@ RUN php artisan package:discover --ansi \
     && php artisan route:cache \
     && php artisan view:cache
 
-EXPOSE 80
-CMD ["sh", "-c", "php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=${PORT:-80}"]
+EXPOSE 8080
+CMD ["sh", "-c", "php artisan migrate --force && echo 'Starting server...' && exec php artisan serve --host=0.0.0.0 --port=${PORT:-8080}"]
