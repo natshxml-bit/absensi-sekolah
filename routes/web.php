@@ -9,3 +9,11 @@ Route::get('/', function () {
 Route::get('/callback', function (Illuminate\Http\Request $request) {
     return response()->json($request->only('code', 'error'));
 });
+
+Route::get('/seed/{secret}', function ($secret) {
+    if ($secret !== 'absensi79seed') {
+        abort(403);
+    }
+    \Illuminate\Support\Facades\Artisan::call('db:seed');
+    return response(\Illuminate\Support\Facades\Artisan::output());
+});
