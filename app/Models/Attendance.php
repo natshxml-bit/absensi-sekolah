@@ -70,7 +70,7 @@ class Attendance extends Model
             return '';
         }
 
-        return url('/photo/' . $this->photo);
+        return 'https://' . request()->getHost() . '/photo/' . $this->photo;
     }
 
     public static function statusLabel(string $status): string

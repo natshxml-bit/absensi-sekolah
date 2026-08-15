@@ -27,13 +27,14 @@ Route::get('/photo/{fileId}', function ($fileId) {
 });
 
 Route::get('/debug-photo/{id}', function ($id) {
-    $a = \App\Models\Attendance::with('student')->find($id);
+    $a = \App\Models\Attendance::find($id);
     if (!$a) return 'not found';
+    $student = \App\Models\Student::find($a->student_id);
     return response()->json([
         'id' => $a->id,
-        'student' => $a->student->name ?? '?',
+        'student_id' => $a->student_id,
+        'student_name' => $student?->user?->name ?? 'null',
         'photo' => $a->photo,
         'photo_url' => $a->photo_url,
-        'photo_url_type' => gettype($a->photo_url),
     ]);
 });
