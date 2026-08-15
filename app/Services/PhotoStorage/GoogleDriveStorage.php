@@ -95,6 +95,6 @@ class GoogleDriveStorage implements PhotoStorage
             return '';
         }
 
-        return "https://drive.google.com/uc?export=view&id={$path}";
+        return "https://lh3.googleusercontent.com/d/{$path}";
     }
 }
