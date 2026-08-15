@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use App\Models\{User, Student, Teacher, ClassModel, Major, Schedule, Setting, Attendance};
+use App\Models\{User, Student, Teacher, ClassRoom, Major, Schedule, Setting};
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
 
@@ -11,9 +11,9 @@ class FullDatabaseSeeder extends Seeder
     public function run(): void
     {
         $majors = [
-            ['name' => 'TKJ', 'full_name' => 'Teknik Komputer dan Jaringan'],
-            ['name' => 'RPL', 'full_name' => 'Rekayasa Perangkat Lunak'],
-            ['name' => 'MM', 'full_name' => 'Multimedia'],
+            ['name' => 'TKJ', 'code' => 'TKJ'],
+            ['name' => 'RPL', 'code' => 'RPL'],
+            ['name' => 'MM', 'code' => 'MM'],
         ];
 
         $majorModels = [];
@@ -26,7 +26,7 @@ class FullDatabaseSeeder extends Seeder
         foreach (['X', 'XI', 'XII'] as $grade) {
             foreach (['TKJ', 'RPL', 'MM'] as $m) {
                 $className = "$grade $m";
-                $classes[$className] = ClassModel::updateOrCreate(
+                $classes[$className] = ClassRoom::updateOrCreate(
                     ['name' => $className],
                     ['major_id' => $majorModels[$m]->id]
                 );
@@ -49,16 +49,16 @@ class FullDatabaseSeeder extends Seeder
 
         $teacherModels = [];
         foreach ($teachers as $t) {
-            $teacher = Teacher::updateOrCreate(
-                ['email' => $t['email']],
-                ['name' => $t['name'], 'password' => 'guru123']
-            );
-            $teacherModels[] = $teacher;
-
             $user = User::updateOrCreate(
                 ['email' => $t['email']],
-                ['name' => $t['name'], 'password' => 'guru123', 'role' => User::ROLE_TEACHER, 'teacher_id' => $teacher->id]
+                ['name' => $t['name'], 'password' => 'guru123', 'role' => User::ROLE_GURU]
             );
+
+            $teacher = Teacher::updateOrCreate(
+                ['nip' => $t['email']],
+                ['user_id' => $user->id]
+            );
+            $teacherModels[] = $teacher;
         }
 
         $studentNames = [
@@ -79,16 +79,16 @@ class FullDatabaseSeeder extends Seeder
             $nis = 'XTSM-' . str_pad($nisCounter, 3, '0', STR_PAD_LEFT);
             $nisCounter++;
 
+            $user = User::updateOrCreate(
+                ['email' => strtolower(str_replace(' ', '.', $name)) . '@siswa.smk79.sch.id'],
+                ['name' => $name, 'password' => 'siswa123', 'role' => User::ROLE_SISWA]
+            );
+
             $student = Student::updateOrCreate(
                 ['nis' => $nis],
-                ['name' => $name, 'class_id' => $classes[$className]->id, 'password' => 'siswa123']
+                ['user_id' => $user->id, 'class_id' => $classes[$className]->id]
             );
             $studentModels[] = $student;
-
-            User::updateOrCreate(
-                ['email' => strtolower(str_replace(' ', '.', $name)) . '@siswa.smk79.sch.id'],
-                ['name' => $name, 'password' => 'siswa123', 'role' => User::ROLE_STUDENT, 'student_id' => $student->id]
-            );
         }
 
         $days = ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat'];
@@ -123,7 +123,7 @@ class FullDatabaseSeeder extends Seeder
         }
 
         echo "Seeded: " . Major::count() . " majors, " .
-             ClassModel::count() . " classes, " .
+             ClassRoom::count() . " classes, " .
              Teacher::count() . " teachers, " .
              Student::count() . " students, " .
              Schedule::count() . " schedules\n";
