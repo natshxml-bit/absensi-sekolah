@@ -478,11 +478,11 @@
         ]);
         row.append(cb, UI.avatar(r.student?.name || r.user?.name || r.user_name || '?'), detail, UI.statusPill(r.status));
         if (r.photo_url) {
-          var photoImg = UI.el('img', { src: r.photo_url, style: 'width:40px;height:40px;border-radius:6px;object-fit:cover;margin-left:8px;cursor:pointer;border:1px solid var(--border)' });
+          var photoImg = UI.el('img', { src: r.photo_url, crossorigin: 'anonymous', style: 'width:40px;height:40px;border-radius:6px;object-fit:cover;margin-left:8px;cursor:pointer;border:1px solid var(--border)', onerror: function() { this.style.display='none'; } });
           photoImg.onclick = function (e) {
             e.stopPropagation();
             var overlay = UI.el('div', { style: 'position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.85);z-index:9999;display:flex;align-items:center;justify-content:center;cursor:pointer' });
-            var bigImg = UI.el('img', { src: r.photo_url, style: 'max-width:90vw;max-height:80vh;border-radius:8px' });
+            var bigImg = UI.el('img', { src: r.photo_url, crossorigin: 'anonymous', style: 'max-width:90vw;max-height:80vh;border-radius:8px' });
             overlay.onclick = function () { overlay.remove(); };
             overlay.appendChild(bigImg);
             document.body.appendChild(overlay);
