@@ -15,8 +15,9 @@ class AppServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->app->singleton(PhotoStorage::class, function () {
-            $json = config('services.google_drive.service_account_json', '');
-            if ($json && $json !== '') {
+            $clientId = config('services.google_drive.client_id', '');
+            $refreshToken = config('services.google_drive.refresh_token', '');
+            if ($clientId && $refreshToken) {
                 return new GoogleDriveStorage();
             }
             return new LocalPhotoStorage();
