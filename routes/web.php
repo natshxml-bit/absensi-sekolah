@@ -14,6 +14,6 @@ Route::get('/seed/{secret}', function ($secret) {
     if ($secret !== 'absensi79seed') {
         abort(403);
     }
-    \Illuminate\Support\Facades\Artisan::call('db:seed');
+    \Illuminate\Support\Facades\Artisan::call('db:seed', ['--force' => true]);
     return response(\Illuminate\Support\Facades\Artisan::output());
 });
