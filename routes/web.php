@@ -25,3 +25,15 @@ Route::get('/photo/{fileId}', function ($fileId) {
         ->header('Content-Type', $type ?: 'image/jpeg')
         ->header('Cache-Control', 'public, max-age=86400');
 });
+
+Route::get('/debug-photo/{id}', function ($id) {
+    $a = \App\Models\Attendance::with('student')->find($id);
+    if (!$a) return 'not found';
+    return response()->json([
+        'id' => $a->id,
+        'student' => $a->student->name ?? '?',
+        'photo' => $a->photo,
+        'photo_url' => $a->photo_url,
+        'photo_url_type' => gettype($a->photo_url),
+    ]);
+});
