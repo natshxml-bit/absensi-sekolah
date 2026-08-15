@@ -100,8 +100,6 @@ class StudentController extends Controller
         $request->validate([
             'type' => ['required', 'in:izin,sakit'],
             'reason' => ['nullable', 'string', 'max:500'],
-            'photo' => ['nullable', 'string'],
-            'photo_name' => ['nullable', 'string'],
         ]);
 
         $today = now()->toDateString();
@@ -110,20 +108,11 @@ class StudentController extends Controller
             return response()->json(['message' => 'Anda sudah memiliki catatan absensi hari ini.'], 422);
         }
 
-        $photoFile = null;
-        if ($request->filled('photo')) {
-            $raw = base64_decode($request->photo);
-            $name = $request->photo_name ?? 'photo.jpg';
-            $tmp = tempnam(sys_get_temp_dir(), 'izin_');
-            file_put_contents($tmp, $raw);
-            $photoFile = new \Illuminate\Http\UploadedFile($tmp, $name, 'image/jpeg', null, true);
-        }
-
         $attendance = $this->attendanceService->recordManual(
             $student,
             $today,
             $request->type,
-            $photoFile,
+            null,
             $request->reason,
         );
 
